@@ -1,0 +1,15 @@
+﻿@model Hospital_Management_UI.Models.Doctor
+
+<h2>Add Doctor</h2>
+
+<form asp-action="Create" method="post">
+    <input asp-for="UserName" class="form-control mb-2" placeholder="User Name" />
+    <input asp-for="FullName" class="form-control mb-2" placeholder="Full Name" />
+    <input asp-for="Specialization" class="form-control mb-2" placeholder="Specialization" />
+    <input asp-for="Department" class="form-control mb-2" placeholder="Department" />
+    <input asp-for="Email" class="form-control mb-2" placeholder="Email" />
+    <input asp-for="Phone" class="form-control mb-2" placeholder="Phone" />
+    <input asp-for="Password" class="form-control mb-2" placeholder="Password" />
+
+    <button type="submit" class="btn btn-success">Save</button>
+</form>

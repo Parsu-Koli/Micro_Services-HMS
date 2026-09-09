@@ -1,0 +1,14 @@
+﻿@model Hospital_Management_UI.Models.Doctor
+
+<h2>Edit Doctor</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <input asp-for="FullName" class="form-control mb-2" />
+    <input asp-for="Specialization" class="form-control mb-2" />
+    <input asp-for="Department" class="form-control mb-2" />
+    <input asp-for="Email" class="form-control mb-2" />
+    <input asp-for="Phone" class="form-control mb-2" />
+    <button type="submit" class="btn btn-primary">Update</button>
+</form>

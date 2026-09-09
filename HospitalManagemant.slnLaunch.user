@@ -1,0 +1,37 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "AuthServices.API\\AuthServices.API.csproj",
+        "Action": "Start",
+        "DebugTarget": "AuthService"
+      },
+      {
+        "Path": "PatientService.API\\PatientService.API.csproj",
+        "Action": "Start",
+        "DebugTarget": "https"
+      },
+      {
+        "Path": "DoctorService.API\\DoctorService.API.csproj",
+        "Action": "Start",
+        "DebugTarget": "https"
+      },
+      {
+        "Path": "AppointmentService.API\\AppointmentService.API.csproj",
+        "Action": "Start",
+        "DebugTarget": "https"
+      },
+      {
+        "Path": "BillingService.API\\BillingService.API.csproj",
+        "Action": "Start",
+        "DebugTarget": "https"
+      },
+      {
+        "Path": "ApiGetWay\\ApiGetWay.csproj",
+        "Action": "Start",
+        "DebugTarget": "https"
+      }
+    ]
+  }
+]

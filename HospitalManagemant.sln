@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36203.30 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthServices.API", "AuthServices.API\AuthServices.API.csproj", "{560B4164-96C7-4DA6-BE2E-DF93DC686DC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientService.API", "PatientService.API\PatientService.API.csproj", "{105F50FB-E3CD-4265-9799-43FF98C9B28B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoctorService.API", "DoctorService.API\DoctorService.API.csproj", "{ED22D96B-1749-4F4B-9DFF-CBF89E85B56E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointmentService.API", "AppointmentService.API\AppointmentService.API.csproj", "{E787CF45-ED5D-4FDF-B066-348CB05FCA92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillingService.API", "BillingService.API\BillingService.API.csproj", "{24B82764-3BF1-44D2-AD62-ED7F62067DE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGetWay", "ApiGetWay\ApiGetWay.csproj", "{2FED0A20-BB85-4200-8CA0-97FEEF8061DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{560B4164-96C7-4DA6-BE2E-DF93DC686DC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{560B4164-96C7-4DA6-BE2E-DF93DC686DC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{560B4164-96C7-4DA6-BE2E-DF93DC686DC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{560B4164-96C7-4DA6-BE2E-DF93DC686DC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{105F50FB-E3CD-4265-9799-43FF98C9B28B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{105F50FB-E3CD-4265-9799-43FF98C9B28B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{105F50FB-E3CD-4265-9799-43FF98C9B28B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{105F50FB-E3CD-4265-9799-43FF98C9B28B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED22D96B-1749-4F4B-9DFF-CBF89E85B56E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED22D96B-1749-4F4B-9DFF-CBF89E85B56E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED22D96B-1749-4F4B-9DFF-CBF89E85B56E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED22D96B-1749-4F4B-9DFF-CBF89E85B56E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E787CF45-ED5D-4FDF-B066-348CB05FCA92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E787CF45-ED5D-4FDF-B066-348CB05FCA92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E787CF45-ED5D-4FDF-B066-348CB05FCA92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E787CF45-ED5D-4FDF-B066-348CB05FCA92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24B82764-3BF1-44D2-AD62-ED7F62067DE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24B82764-3BF1-44D2-AD62-ED7F62067DE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24B82764-3BF1-44D2-AD62-ED7F62067DE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24B82764-3BF1-44D2-AD62-ED7F62067DE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FED0A20-BB85-4200-8CA0-97FEEF8061DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FED0A20-BB85-4200-8CA0-97FEEF8061DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FED0A20-BB85-4200-8CA0-97FEEF8061DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FED0A20-BB85-4200-8CA0-97FEEF8061DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC6EBB36-1601-4610-ACAF-7CC914DC83D1}
+	EndGlobalSection
+EndGlobal
